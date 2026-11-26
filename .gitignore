@@ -1,1 +1,53 @@
-/.vscode
+# ===== macOS 系统垃圾 =====
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+
+# ===== 编辑器 / IDE 个人配置 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== 临时文件 / 备份 / 日志 =====
+*.tmp
+*.temp
+*.bak
+*.bak[0-9]*
+*.orig
+*.rej
+*.log
+~$*
+
+# ===== 写作软件自动备份与锁文件（Word / WPS / Pages）=====
+.~*
+.~lock.*#
+*.wbk
+*.asd
+*.autosave
+
+# ===== 密钥与隐私（千万别传，仓库是公开的）=====
+.env
+.env.*
+*.key
+*.pem
+*.p12
+secrets/
+*密码*
+*证件*
+银行卡*
+
+# ===== 大文件与素材（备份用，不传 GitHub）=====
+*.psd
+*.ai
+*.zip
+*.rar
+*.7z
+*.mp4
+*.mov
+素材/
+原图/
